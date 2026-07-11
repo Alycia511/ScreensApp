@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack {
                 Text("Alycia")
                     .font(.largeTitle)
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.green)
                 Text("Taha")
                     .font(.largeTitle)
                     .foregroundStyle(.mint)
