@@ -14,11 +14,12 @@ struct ContentView: View {
             VStack {
                 Text("Alycia")
                     .font(.largeTitle)
-                    .foregroundStyle(.green)
+                    .foregroundStyle(.red)
                 Text("Taha")
                     .font(.largeTitle)
                     .foregroundStyle(.mint)
                     .bold()
+                
                 }
             .ignoresSafeArea()
         }
