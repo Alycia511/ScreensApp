@@ -11,9 +11,15 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.blue
-            Text("Alycia")
-                .font(.largeTitle)
-                .foregroundStyle(.black)
+            VStack {
+                Text("Alycia")
+                    .font(.largeTitle)
+                    .foregroundStyle(.black)
+                Text("Taha")
+                    .font(.largeTitle)
+                    .foregroundStyle(.mint)
+                    .bold()
+                }
         }
     }
 }
