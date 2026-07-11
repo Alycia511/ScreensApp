@@ -20,6 +20,7 @@ struct ContentView: View {
                     .foregroundStyle(.mint)
                     .bold()
                 }
+            .ignoresSafeArea()
         }
     }
 }
